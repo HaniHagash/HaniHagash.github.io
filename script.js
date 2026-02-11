@@ -105,61 +105,61 @@ const CONFIG = {
       title: "Bachelor's Thesis - Fast Frequency Reserve Power PCB",
       description: "Redesigned a power PCB for Fast Frequency Reserve in hydropower applications, integrating supercapacitors and power stage design in EasyEDA, then validating with LTspice, calculations, and lab measurements.",
       link: "",
-      image: "./assets/hero.png"
+      image: "./assets/Bachelor.png"
     },
     {
       title: "Power System Modeling and Analysis",
       description: "Developed and analyzed multi-bus power system networks with transformers, lines, and industrial loads using per-unit methods, ABCD matrices, Y-bus/Z-bus, and Newton-Raphson power flow in MATLAB.",
       link: "",
-      image: "./assets/hero.png"
+      image: "./assets/SystemAnalysis.png"
     },
     {
       title: "Step-Down (Buck) DC-DC Converter",
       description: "Designed and simulated a high-efficiency buck converter reducing 500-580V to 280V at 20A, including device sizing, thermal checks, and open/closed-loop validation in PSpice.",
       link: "",
-      image: "./assets/hero.png"
+      image: "./assets/DCDC.png"
     },
     {
       title: "Sensorless Control of Induction Machine",
       description: "Developed an MRAS-based sensorless speed estimation scheme with voltage/current model observers and validated stable sensorless FOC behavior under load torque steps in MATLAB/Simulink.",
       link: "",
-      image: "./assets/hero.png"
+      image: "./assets/Induction.png"
     },
     {
       title: "Sensorless Control of IPMSM",
       description: "Implemented high-frequency injection for rotor position estimation with a digital-domain FOC scheme, discrete-time controllers, and demodulation filtering for position-dependent ripple extraction.",
       link: "",
-      image: "./assets/hero.png"
+      image: "./assets/IPMSM.png"
     },
     {
       title: "Modeling and Control of Electrical Machines",
       description: "Built and validated DC, synchronous, and induction machine models, applying FOC and MTPA strategies while analyzing copper losses, non-linear magnetization, and energy efficiency behavior.",
       link: "",
-      image: "./assets/hero.png"
+      image: "./assets/modelControl.png"
     },
     {
       title: "Design and Analysis of Electrical Machines",
       description: "Modeled an IPMSM in FEMM and performed analytical design of a 1.5 kW induction machine, balancing torque/current/flux targets with thermal and manufacturability constraints.",
       link: "",
-      image: "./assets/hero.png"
+      image: "./assets/Design.png"
     },
     {
       title: "Decision Trees and Information Gain",
       description: "Implemented ID3 decision trees on MONK datasets, studied entropy and pruning behavior, and evaluated generalization through train/test analysis and cross-validation.",
       link: "",
-      image: "./assets/hero.png"
+      image: "./assets/DecTree.png"
     },
     {
       title: "Support Vector Machines and Kernel Methods",
       description: "Compared linear, polynomial, and RBF kernels, implemented multi-class SVM variants, and tuned hyperparameters to study boundary behavior and overfitting control.",
       link: "",
-      image: "./assets/hero.png"
+      image: "./assets/SVM.png"
     },
     {
       title: "Naive Bayes, Boosting, and Ensemble Methods",
       description: "Implemented AdaBoost with Naive Bayes and decision trees, compared with SVM/KNN/Random Forest models, and analyzed bias-variance effects across Iris and Vowel datasets.",
       link: "",
-      image: "./assets/hero.png"
+      image: "./assets/Naive.png"
     }
   ],
   
@@ -327,19 +327,19 @@ const grid = document.getElementById('contactGrid');
 grid.innerHTML = `
   <div class="contact-item">
     <a href="${CONFIG.contact.linkedinUrl}" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
-      <span class="contact-emoji">&#128188;</span>
+      <span class="contact-emoji">&#128279;</span>
       <span class="contact-text">LinkedIn</span>
     </a>
   </div>
   <div class="contact-item">
     <a href="tel:${CONFIG.contact.phone}" class="contact-link" aria-label="Phone number">
-      <span class="contact-emoji">&#128241;</span>
+      <span class="contact-emoji">&#9742;</span>
       <span class="contact-text">${CONFIG.contact.phone}</span>
     </a>
   </div>
   <div class="contact-item">
     <a href="mailto:${CONFIG.contact.email}" class="contact-link" aria-label="Email address">
-      <span class="contact-emoji">&#128231;</span>
+      <span class="contact-emoji">&#9993;</span>
       <span class="contact-text">${CONFIG.contact.email}</span>
     </a>
   </div>
